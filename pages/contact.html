@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="row justify-content-center mt-5 pt-5">
+        <div class="col-md-7">
+            <h1 class="display-4">Estamos para ayudarte.</h1>
+            <hr class="bg-info">
+            <p class="">Ponte en contacto con nosotros. Estamos para ayudarte.</p>
+            <p class="text-danger small pt-0 mt-0">*Todos los campos son obligatorios</p>
+            <div class="alert alert-success d-none" id="mensajeExito">Mensaje enviado con éxito</div>
+            <div class="alert alert-danger d-none"  id="mensajeError">Error</div>
+            <!-- <form id="frmContact" method="POST" action="event.preventDefault();"> -->
+                <div class="row form-group">
+                    <label for="name" class="col-form-label col-md-4"><i class="fas fa-user-check"></i> Nombre</label>
+                    <div class="col-md-8">
+                        <input type="text" name="name" value="" id="name" class="form-control" placeholder="Tu Nombre" required>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="email" class="col-form-label col-md-4"><i class="fas fa-envelope"></i> Correo</label>
+                    <div class="col-md-8">
+                        <input type="email" name="email" value="" id="email" class="form-control" placeholder="Tu correo" required>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <label for="message" class="col-form-label col-md-4"><i class="fas fa-comment"></i> Mensaje</label>
+                    <div class="col-md-8">
+                        <textarea rows="3" class="form-control" id="message" name="message" placeholder="Ingresa mensaje" required></textarea>
+                    </div>
+                </div>
+                <div class="row justify-content-end">
+                    <div class="col-md-8 ">
+                        <button type="button" id="btnEnviar" class="btn btn-success btn-lg float-right">Enviar</button>
+                    </div>
+                </div>
+            <!-- </form> -->
+        </div>
+    </div>
+</div>
+<br><br><br><br>
+<section class="col-md-12 text-center">
+    <div class="google-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.88114564518!2d-89.86084468365588!3d13.786037701879499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62a4dab9c56ac3%3A0x2ddf34f5d4106e87!2sALCALDIA+MUNICIPAL+DE+JUJUTLA!5e0!3m2!1ses-419!2ssv!4v1547277527731" width="1300" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</section>
